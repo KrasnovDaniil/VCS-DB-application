@@ -1,0 +1,1 @@
+insert into "User" (email, "name", "password") values ('daniil@mail.ru', 'Daniil', '123');
