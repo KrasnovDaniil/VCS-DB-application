@@ -1,0 +1,26 @@
+<html>
+<head>
+    <style>
+table {
+    border-collapse: collapse;
+}
+ 
+table, td, th {
+    border: 1px solid #999;
+    padding: 5px;
+}
+</style>
+</head>
+<body>
+    <h2>All users1</h2>
+    <table>
+    {{# users }}
+        <tr>
+            <td>{{name}}</td>
+            <td>{{email}}</td>
+            <td>{{password}}</td>
+        </tr>
+    {{/ users }}      
+</table>
+</body>
+</html>

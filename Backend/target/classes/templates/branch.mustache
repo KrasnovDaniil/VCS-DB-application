@@ -1,0 +1,27 @@
+<html>
+<head>
+    <style>
+table {
+    border-collapse: collapse;
+}
+ 
+table, td, th {
+    border: 1px solid #999;
+    padding: 5px;
+}
+</style>
+</head>
+<body>
+
+    <h1>Current branch: {{name}}</h1>
+    <table>
+    <h2>Code Folders</h2>
+    {{#FolderList}}
+        <tr>
+            <td><a href= folder/{{code_folder_id}}/ >{{name}}</a></td>
+        </tr>
+    {{/FolderList}}
+
+</table>
+</body>
+</html>
